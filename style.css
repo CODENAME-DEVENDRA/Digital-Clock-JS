@@ -1,0 +1,20 @@
+html,body{
+    height: 95vh;
+}
+
+body{
+    background: #07010e;
+    background: radial-gradient(ellipse at center , #341557 0% , #000000 80%);
+}
+
+#clock{
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: #d8d6e5;
+    font-size: 200px;
+    text-shadow: 0 0 20px rgba(10,175,230,1),0 0 20px rgba(10,175,230,0);
+    font-family: "Share Tech Mono",monospace;
+}
